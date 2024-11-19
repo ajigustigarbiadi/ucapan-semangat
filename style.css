@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #1e90ff, #00ffff);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 15%;
+}
+
+button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ff3b3f;
+}
+
+.hidden {
+  display: none;
+}
+
+#hiddenMessage {
+  margin-top: 20px;
+  font-size: 18px;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
